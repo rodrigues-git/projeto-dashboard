@@ -131,9 +131,6 @@ nav li{
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    background-color: rgba(255, 255, 255, 0.596);
-    padding: 10px;
-    border-radius: 20px;
 }
 
 nav a{
@@ -144,6 +141,9 @@ nav a{
     justify-content: center;
     gap: 5px;
     font-size: 0.7em;
+    background-color: rgba(255, 255, 255, 0.596);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 main{
@@ -169,7 +169,7 @@ main{
         "simbolo2 info2";
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
 }
 
 #titulo-metas{
@@ -188,6 +188,7 @@ main{
     align-items: center;
     background-color: #D3F3DF;
     border-radius: 10px;
+    
 }
 
 #simbolo2{
@@ -197,6 +198,7 @@ main{
     align-items: center;
     background-color: #CCE3FF;
     border-radius: 10px;
+    
 }
 
 #info1, #info2{
@@ -205,10 +207,11 @@ main{
     grid-area: info1;
     font-size: 0.7em;
     justify-content: center;
+    ;
 }
 
 #info2{
-    grid-area: info2;   
+    grid-area: info2;  
 }
 
 .barra-progresso {
@@ -309,6 +312,45 @@ main{
 #cancelados i{
     color: red;
 }
+
+#social-media{
+    display: grid;
+    grid-template-areas:
+        "youtube"
+        "instagram"
+        "linkedin";
+    gap: 5px;
+}
+
+#youtube{
+    grid-area: youtube;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+#youtube i{
+    color: red;
+}
+
+#instagram{
+    grid-area: instagram;
+    border: 1px solid black;
+}
+
+#linkedin{
+    grid-area: linkedin;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    height: 100%;
+}
+
+
 
 
 
