@@ -168,7 +168,6 @@ main{
         "simbolo1 info1"
         "simbolo2 info2";
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
 }
 
@@ -179,7 +178,10 @@ main{
     gap: 5px;
     font-size: 0.8em;
     justify-content: flex-start;
+    border: 1px solid black;
 }
+
+
 
 #simbolo1{
     grid-area: simbolo1;
@@ -268,6 +270,7 @@ main{
     align-items: center;
     gap: 5px;
     font-size: 0.8em;
+    border: 1px solid;
 }
 
 .card-stats{
